@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="105" height="45" viewBox="0 0 105 45">
+  <path fill="none" stroke="#040000" stroke-width="1.5" stroke-miterlimit="10" d="M31.146 6.537h46.529v23.725H31.146z"/>
+  <path fill="none" stroke="#040000" stroke-width="1.5" stroke-miterlimit="10" d="M36.123 34.254h36.573v4.376H36.123z"/>
+  <path fill="#040000" d="M42.172 36.441c0 .416-.336.752-.751.752-.416 0-.752-.336-.752-.752 0-.415.336-.751.752-.751.415 0 .751.336.751.751"/>
+  <path fill="#040000" d="M68.32 36.441c0 .416-.336.752-.752.752-.415 0-.751-.336-.751-.752 0-.415.336-.751.751-.751.416 0 .752.336.752.751"/>
+  <path fill="#040000" d="M55.161 36.441c0 .416-.336.752-.751.752-.416 0-.752-.336-.752-.752 0-.415.336-.751.752-.751.415 0 .751.336.751.751"/>
+  <path fill="none" stroke="#231815" stroke-miterlimit="10" d="M34.611 9.192h39.451v18.142H34.611z"/>
+  <path fill="none" stroke="#040000" stroke-width="1.2" stroke-miterlimit="10" d="M83.943 8.876h6.546v27.143h-6.546z"/>
+  <path fill="none" stroke="#040000" stroke-width="1.2" stroke-miterlimit="10" d="M83.943 8.876l.561-2.655h4.876l1.109 2.655"/>
+  <path fill="none" stroke="#040000" stroke-width="1.2" stroke-miterlimit="10" d="M83.943 31.646h-1.896l-1.312 6.984h12.858l-1.33-6.984h-1.774"/>
+  <circle fill="none" stroke="#040000" stroke-miterlimit="10" cx="87.246" cy="13.556" r="1.349"/>
+  <circle fill="none" stroke="#040000" stroke-miterlimit="10" cx="87.216" cy="19.771" r="1.348"/>
+  <circle fill="none" stroke="#040000" stroke-miterlimit="10" cx="87.246" cy="25.985" r="1.349"/>
+  <path fill="none" stroke="#040000" stroke-width="1.2" stroke-miterlimit="10" d="M18.245 8.898h6.546v27.144h-6.546z"/>
+  <path fill="none" stroke="#040000" stroke-width="1.2" stroke-miterlimit="10" d="M18.244 8.898l.561-2.655h4.877l1.108 2.655"/>
+  <path fill="none" stroke="#040000" stroke-width="1.2" stroke-miterlimit="10" d="M18.244 31.669h-1.896l-1.312 6.982h12.858l-1.33-6.982H24.79"/>
+  <circle fill="none" stroke="#040000" stroke-miterlimit="10" cx="21.547" cy="13.579" r="1.348"/>
+  <circle fill="none" stroke="#040000" stroke-miterlimit="10" cx="21.517" cy="19.793" r="1.349"/>
+  <circle fill="none" stroke="#040000" stroke-miterlimit="10" cx="21.547" cy="26.008" r="1.348"/>
+</svg>
