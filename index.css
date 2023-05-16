@@ -6,7 +6,7 @@
     right: 0;
     bottom: 0;
     width: 320px;
-    /* height: 480px; */
+    height: 325px;
     background: #fff;
     /* margin: 1em auto; */
     border: 4px solid #e2e2e2;
@@ -22,7 +22,8 @@
     display: block;
     width: 100%;
     height: 100%;
-    background: #f3f3f3;
+    /* background: #f3f3f3; */
+    background: #ffffff;
   }
   table {
     width: 100%;
@@ -45,6 +46,31 @@
     font-size: 1.2rem;
     line-height: 2rem;
   }
+  .prev_button{
+    border-width: 0;
+    background: #85baff;
+    color: #ffffff;
+    font-size: large;
+  }
+  .prev_button:hover
+  {
+    background: #FFFFFF;
+    color: #85baff;
+    transition: .5s;
+  }
+  .next_button{
+    border-width: 0;
+    background: #85baff;
+    color: #ffffff;
+    font-size: large;
+    border-style: dotted;
+  }
+    .next_button:hover
+  {
+    background: #FFFFFF;
+    color: #85baff;
+    transition: .5s;
+  }
   .week_cal {
     background: #fff;
     /* color: #d7d7d7; */
@@ -57,15 +83,15 @@
     /* 空白日改填補白色 */
   }
   tbody.days_cal tr td a {
-    padding: 0;
+    margin: 3.5px;
+    padding: 5px;
     text-decoration: none;
     background: #fff;
     /* color: #888; */
-    height: 3.2rem;
-    /* height: 90%; */
-    /* width: 90%; */
-    line-height: 3.2rem;
-    display: block;
+    height: 1.5rem;
+    width: 1.5rem;
+    /* line-height: 3.2rem; */
+    display: inline-block;
     border-radius: 50%;
     /* 圓角 */
     border: 1px solid purple;
@@ -335,7 +361,7 @@ a {
     background-color: #fff;
     /* margin: 0 -.75rem; */
     /* 將產品列推至導覽列下方並左右縮小 */
-    margin: 60px 0 0 0;
+    margin: 50px 0 0 0;
     padding-bottom: 0;
     /* 去掉ul內有的padding-left */
     padding-left: 0;
@@ -768,8 +794,12 @@ h4 {
 
 @media screen and (max-width:1024px) {
 .wrapper{
-    margin: 0 9%;
+    margin: 1em 9%;
     width: auto;
+}
+.custom_col{
+    display: none;
+    /* visibility: hidden; */
 }
 }
 
@@ -1039,6 +1069,18 @@ h4 {
         width: 100%;
         margin-bottom: 50px;
     }
+    .custom_cols .custom_col:nth-child(2){
+        --service_color: orange;
+        fill:var(--service_color)
+    }
+    .custom_cols .custom_col:nth-child(3){
+        --service_color: violet;
+        fill:var(--service_color)
+    }
+    .custom_cols .custom_col:nth-child(4){
+        --service_color: skyblue;
+        fill:var(--service_color)
+    }
     .custom_col{
         display: flex;
         flex: 1;
@@ -1046,17 +1088,24 @@ h4 {
         flex-direction: column;
         border: 1px solid rgb(209, 208, 208);
         margin: 0 5px;
+        align-items: center;
+    }
+    .custom_col:hover{
+        border: 1px solid var(--service_color);
     }
     .custom_col_img{
         display: flex;
-        width: 100px;
+        width: 50px;
         height: 100px;
+        
     }
     .custom_col_title{
         display: flex;
         align-items: center;
         flex-direction: column;
-
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+        border-bottom:3px solid var(--service_color);
     }
     .custom_col_title_ch{
         font-size: x-large;
@@ -1068,7 +1117,7 @@ h4 {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin: auto;
+        /* margin: auto; */
         padding: 0;
         /* 消除li左方空白 */
         list-style: none;
